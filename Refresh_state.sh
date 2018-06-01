@@ -4,6 +4,8 @@
 #
 
 system=`ls /media/hakchi/games`
+home="ENTER SAVES FOLDER NUMBER HERE"
+final="/media/hakchi/games/$system/$home"
 grep -ril "name=saves" /media/hakchi/games/$system/000 | while read match; do
 	folder="$(dirname -- "$match")"
 	location=`echo $folder | tail -c4`
