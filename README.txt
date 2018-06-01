@@ -57,4 +57,4 @@ Notes:
 
 Thanks To:
 ==========
-/r/miniSNESmods as well as /r/nesclassicmods, DanTheMan827, MDFMKanic, and many more!
+/r/miniSNESmods, TeamShinkansen, DanTheMan827, MDFMKanic, and strikelight
