@@ -54,6 +54,36 @@ Notes:
 - I would recommend using hakchi save state manager to gain an understanding on how
   many SRAM saves have been created.  Alternatively, you can go to your usb/hakchi/saves
   directory and search *.sram and clear the ones you don't want manually.
+  
+For Advanced Users!:
+====================
+If you would like to speed up the script at all, there are 2 lines in .sh file to change.
+Navigate to your USB drive and go into your hakchi games folder. You should see a bunch of
+folders such as 000, 001, 002, 003, etc. If you look into the 000 folder, that is your home
+menu.  Every CLV-S-***** folder is a folder on the home menu.  If you synced properly, with
+"Saves" folder on the home menu, one of the CLV-S-***** folders will be the "Saves" folder.
+Explore the .png within these CLV-S-***** folders to find which folder image you designated
+to "Saves". Once you find which CLV-S-***** is your "Saves" folder, take note of the last 3
+digits of that folder name.  Example: If you found it to be CLV-S-00068, take note of the 068.
+Open up the script that you are using and get ready to edit!
+
+Near the top you will find a line in the file as follows:
+
+	home="ENTER SAVES FOLDER NUMBER HERE"
+	
+You want to change this line to something like this:
+
+	home=068
+
+After this, go down a little further to find the line:
+
+	final="$(find /media/hakchi/games/*/ -name "$location")"
+	
+You want to simply at a '#' in front of it so that it become:
+
+	#final="$(find /media/hakchi/games/*/ -name "$location")"
+	
+Your script should now run about 2-3 seconds faster!
 
 Thanks To:
 ==========
