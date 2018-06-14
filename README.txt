@@ -77,7 +77,7 @@ Notes:
 - I would recommend using hakchi save state manager to gain an understanding on how
   many SRAM saves have been created.  Alternatively, you can go to your usb/hakchi/saves
   directory and search *.sram and clear the ones that you don't want manually.
-- USB mod that is not using linked export will take longer to run, as there is more files.
+- USB mod that is not using linked export will take longer to run, as there are more files.
 
 Thanks To:
 ==========
