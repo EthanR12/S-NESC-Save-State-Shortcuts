@@ -65,9 +65,9 @@ Limitations:
   USB-Drive/hakchi/saves
   
 - USB devices cannot have setups for more than one system! Within the 'games' folder of the above
-  directory, only a single folder is allowed, otherwise the script will not run as intended. There is
+  directory, only a single folder is allowed, otherwise the script will not run and just kick you out. There is
   a workaround I can help with if anyone has this setup.
-- Only allows for a single "Saves" folder on the home menu. Script will not run as intended with 2 or more.
+- Only allows for a single "Saves" folder on the home menu. Script will give C7 error with more than 1 saves folder
 - If there is no folders_snes_usa.xml, or any other region varient, present in hakchi/config
   folder, the automatic "Folder Setup.bat" file will not work.
    
@@ -78,7 +78,6 @@ Notes:
   many SRAM saves have been created.  Alternatively, you can go to your usb/hakchi/saves
   directory and search *.sram and clear the ones that you don't want manually.
 - USB mod that is not using linked export will take longer to run, as there are more files.
-
 Thanks To:
 ==========
 /r/miniSNESmods, TeamShinkansen, DanTheMan827, MDFMKanic, and strikelight
