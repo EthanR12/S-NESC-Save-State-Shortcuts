@@ -1,6 +1,6 @@
 Welcome To (S)NESC Save State Shortcuts!
 
-(S)NESC Save State Shortcuts v1.2 created by EthanR12
+(S)NESC Save State Shortcuts v1.2.2 created by EthanR12
 
 Description:
 ============
@@ -67,7 +67,8 @@ Limitations:
 - USB devices cannot have setups for more than one system! Within the 'games' folder of the above
   directory, only a single folder is allowed, otherwise the script will not run and just kick you out. There is
   a workaround I can help with if anyone has this setup.
-- Only allows for a single "Saves" folder on the home menu. Script will give C7 error with more than 1 saves folder
+- Only allows for a single "Saves" folder on the home menu. Script will give C7 error with more than 1 saves folder!
+  This is intended so it does not run, as it might freeze the system.
 - If there is no folders_snes_usa.xml, or any other region varient, present in hakchi/config
   folder, the automatic "Folder Setup.bat" file will not work.
    
@@ -77,7 +78,9 @@ Notes:
 - I would recommend using hakchi save state manager to gain an understanding on how
   many SRAM saves have been created.  Alternatively, you can go to your usb/hakchi/saves
   directory and search *.sram and clear the ones that you don't want manually.
-- USB mod that is not using linked export will take longer to run, as there are more files.
+- USB mod that is not using linked export will take longer to run, as there are more files to move.
+- NTFS Flash drives may take a little longer to open "Saves" folder on first entry after refresh than FAT32
+
 Thanks To:
 ==========
 /r/miniSNESmods, TeamShinkansen, DanTheMan827, MDFMKanic, and strikelight
