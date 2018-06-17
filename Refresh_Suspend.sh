@@ -6,9 +6,9 @@
 if [ -d /media/hakchi ]; then media=media; else media=var/lib; fi
 if [ -d /media/hakchi ]; then savesloc=media/hakchi/saves; else savesloc=var/lib/clover/profiles/0; fi
 system=`ls /$media/hakchi/games`
-if [[ $(ls /$media/hakchi/games | wc -l) != 1 ]]; then system="syserror"; fi
+if [[ $(echo $system | wc -w) != 1 ]]; then system="syserror"; fi
 match=`grep -wril "name=saves" /$media/hakchi/games/$system/000/*/*.desktop`
-if [[ $(grep -wril "name=saves" /$media/hakchi/games/$system/000/*/*.desktop | wc -l) != 1 ]]; then match="materror"; fi
+if [[ $(echo $match | wc -w) != 1 ]]; then match="materror"; fi
 location=`echo $(dirname $match) | tail -c4`
 if [[ $match == "materror" ]]; then location="locerror"; fi
 final=`find /$media/hakchi/games/$system/$location -maxdepth 0 -type d`
