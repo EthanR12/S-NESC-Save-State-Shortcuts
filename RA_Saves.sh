@@ -5,7 +5,7 @@
 
 short=media/hakchi/games
 for i in $(ls /$short); do
-	grep -wril "name=retro saves" /$short/$i/*/CLV-S-*/*.desktop | while read match; do
+	grep -wril "name=ra saves" /$short/$i/*/CLV-S-*/*.desktop | while read match; do
 		location=`echo $(dirname $match) | tail -c4`
 		final=`find /$short/$i/$location -maxdepth 0 -type d`
 		if [ -f /tmp/"$i"ra_cache ]; then
