@@ -6,7 +6,7 @@
 if [ -d /media/hakchi ]; then media=media; else media=var/lib; fi
 if [ -d /media/hakchi ]; then savesloc=media/hakchi/saves; else savesloc=var/lib/clover/profiles/0; fi
 for i in $(ls /$media/hakchi/games); do
-	grep -wril "name=saves" /$media/hakchi/games/$i/*/CLV-S-*/*.desktop 2>/dev/null | while read match; do
+	grep -wril "name=sram saves" /$media/hakchi/games/$i/*/CLV-S-*/*.desktop 2>/dev/null | while read match; do
 		location=`echo $(dirname $match) | tail -c4`
 		final=`find /$media/hakchi/games/$i/$location -maxdepth 0 -type d`
 		mv $final/CLV-S-00000 /$media/hakchi/games/CLV-S-00000
