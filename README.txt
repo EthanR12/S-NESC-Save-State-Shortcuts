@@ -9,7 +9,9 @@ them all in a folder! Making finding your saved games much quicker and less frus
 
 Requirements:
 =============
-MUST HAVE! "Separate games for multiboot" option checked for this to work, even if not using multiboot! It is on by default but to make sure, up at the settings tab in hakchi, go to "separate games for multiboot" and make sure it is on. This option does nothing to hurt or alter your setup!
+MUST HAVE! "Separate games for multiboot" option checked for this to work, even if not using multiboot!
+It is on by default but to make sure, up at the settings tab in hakchi, go to "separate games for multiboot"
+and make sure it is on. This option does nothing to hurt or alter your setup!
 
 - Works With -
 SNESC/NESC Normal NAND mod
@@ -37,7 +39,7 @@ Refresh_All.sh        -Handles both GUI Suspend Points & SRAM
 Refresh_RA.sh         -Only handles Retroarch save states
 
 2. Choose which kind of saves you want to manage and add it to hakchi as a normal "game".
-   You may change the name or artwork as you see fit. You can add all of them if you wish!
+   You may change the name or artwork as you see fit. You can choose to add all of them if you wish!
    
 3. Set your folder settings to custom. Above game list is a button that says "Structure". Click
    that and select the 2nd option "Custom". Click custom again to open up folders manager.
@@ -55,7 +57,8 @@ Refresh_RA.sh         -Only handles Retroarch save states
    script and click it like any other game. I would recommend not having more than 30 saves
    at a time when running "Refresh" script. You should get kicked back after a few seconds.
    
-6. Navigate into your corresponding saves folder for the script that was ran. You should now have easy access to all games that you are working on! No more navigating several sub-directories to find your games!
+6. Navigate into your corresponding saves folder for the script that was ran. You should now have easy access
+   to all games that you are working on! No more navigating several sub-directories to find your games!
    
 Notes:
 ======
@@ -64,7 +67,9 @@ Notes:
   many SRAM saves have been created.  Alternatively, you can go to your usb/hakchi/saves
   directory and search *.sram and clear the ones that you don't want manually.
 - USB mod that is not using linked export will take longer to run, as there are more files to move.
-- Retroarch refresh script takes longer to run initially after every system start up. This is a necessary step to ensure an up to date game list. Everytime after the initial run, it runs very quickly. Depends on how many games you have. 2300 games took 10 seconds for the initial run.
+- Retroarch refresh script takes longer to run initially after every system start up. This is a necessary
+  step to ensure an up to date game list. Everytime after the initial run, it runs very quickly. Depends
+  on how many games you have. 2300 games took 10 seconds for the initial run.
 - Retroarch saves are only compatible with USB host!
 
 Thanks To:
