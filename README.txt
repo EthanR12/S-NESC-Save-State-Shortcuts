@@ -36,7 +36,6 @@ How To Use:
 Refresh_Suspend.sh    -Only handles GUI Suspend Points
 Refresh_Cartridge.sh  -Only handles SRAM (cartridge) saves
 Refresh_All.sh        -Handles both GUI Suspend Points & SRAM
-Refresh_RA.sh         -Only handles Retroarch save states
 
 2. Choose which kind of saves you want to manage and add it to hakchi as a normal "game".
    You may change the name or artwork as you see fit. You can choose to add all of them if you wish!
@@ -49,7 +48,6 @@ Refresh_RA.sh         -Only handles Retroarch save states
    Refresh_Suspend.sh   - Suspend Saves
    Refresh_Cartridge.sh - SRAM Saves
    Refresh_All.sh       - Saves
-   Refresh_RA.sh        - RA Saves
    
    UPPERCASE CASE & lower case DO NOT matter! Spelling does!
 
@@ -67,22 +65,6 @@ Notes:
   many SRAM saves have been created.  Alternatively, you can go to your usb/hakchi/saves
   directory and search *.sram and clear the ones that you don't want manually.
 - USB mod that is not using linked export will take longer to run, as there are more files to move.
-Retroarch:
-==========
-- Retroarch refresh script takes longer to run initially after every system start up. This is a necessary
-  step to ensure an up to date game list. Everytime after the initial run, it runs very quickly. Depends
-  on how many games you have. 2300 games took 10 seconds for the initial run.
-- Retroarch saves are only compatible with USB host!
-- Retroarch saves include an indicator to tell you which slot you are using before you launch the game from saves folder.
-   If you had 2 save slots for a game at number 9 and 14. the game title will be changed, for example
-   
-From:   Super Mario Bros.    
-    
-To:     Super Mario Bros. (9) (14)
-
-- If you wish to turn this off, you must edit the script itself, only deleting 2 lines of text! There is an
-  image attached highlighting which lines, located in the Visual Instructions folder named "Basic Retro".    
-
 
 Thanks To:
 ==========
