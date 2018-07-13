@@ -19,8 +19,8 @@ SNESC/NESC USB-Host mod
 SNESC/NESC USB-Linked Export
 SNESC/NESC Multi-Boot
 
-Retroarch Saves have been tested with KMFDManic's retroarch Xtreme core, version 171 and newer. Also with retroarch
-'NEO' 172a and 173a. I cannot guarantee it will work outside of these versions!
+Retroarch Saves have been tested with KMFDManic's retroarch Xtreme core, version 171 and newer. Also with
+retroarch 'NEO' 172a and 173a. I cannot guarantee it will work outside of these versions!
 
 It works with Hakchi CE 1.2.4 and later. It has NOT been
 tested with earlier versions of CE or with ClusterM's hakchi.
@@ -69,7 +69,8 @@ Retroarch:
   necessary step to ensure an up to date game list. Everytime after the initial run, it runs very quickly.
   Depending on how many games you have, 2300 games took 10 seconds for the initial run.    
 - Retroarch saves are only compatible with USB host!    
-- Retroarch saves include an indicator to tell you which slot you are using before you launch the game from saves folder.    
+- Retroarch saves include an indicator to tell you which slot you are using before you launch the
+  game from saves folder.    
 - If you had 2 save slots for a game at number 9 and 14. the game title will be changed, for example    
     
     From:   Super Mario Bros.    
