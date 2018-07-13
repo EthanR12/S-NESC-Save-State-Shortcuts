@@ -85,6 +85,7 @@ Retroarch:
 Notes:
 ======
 - This does not "Move" your games to the Saves folder. It simply creates a shortcut for it.
+  Your original folder structure stays the way you want it.
 - I would recommend using hakchi save state manager to gain an understanding on how
   many SRAM saves have been created.  Alternatively, you can go to your usb/hakchi/saves
   directory and search *.sram and clear the ones that you don't want manually.
